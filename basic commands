@@ -6,4 +6,6 @@ Install SublimeText         ----                 $  sudo apt-get update
 Uninstall SublimeText       ----                 $  sudo apt-get remove sublime-text
                                                  $  sudo apt-get autoremove
                                                  
+Install Leafpad text editor ----                 $  sudo apt-get install leafpad
+                                                 
                                                  
