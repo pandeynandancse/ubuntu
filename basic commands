@@ -8,7 +8,10 @@ Uninstall SublimeText       ----                 $  sudo apt-get remove sublime-
                                                  
 Install Leafpad text editor ----                 $  sudo apt-get install leafpad
 
-List directory contents     ----                 $ ls
+List directory contents     ----                 $  ls
+
+Get list of all entered 
+commands in terminal        ----                 $  history
 
                                                  
                                                  
