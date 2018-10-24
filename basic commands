@@ -1,1 +1,9 @@
 Shutdown                    ----                 $  shutdown now
+
+Install SublimeText         ----                 $  sudo apt-get update
+                                                 $  sudo apt-get install sublime-text
+                                                 
+Uninstall SublimeText       ----                 $  sudo apt-get remove sublime-text
+                                                 $  sudo apt-get autoremove
+                                                 
+                                                 
