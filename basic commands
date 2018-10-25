@@ -1,17 +1,30 @@
 Shutdown                    ----                 $  shutdown now
 
+
 Install SublimeText         ----                 $  sudo apt-get update
                                                  $  sudo apt-get install sublime-text
+                                                 
                                                  
 Uninstall SublimeText       ----                 $  sudo apt-get remove sublime-text
                                                  $  sudo apt-get autoremove
                                                  
+                                                 
 Install Leafpad text editor ----                 $  sudo apt-get install leafpad
 
+
 List directory contents     ----                 $  ls
+
 
 Get list of all entered 
 commands in terminal        ----                 $  history
 
+
+Make new folder             ----                 $  mkdir ~/Downloads/new-folder
+(Inside Downloads)
                                                  
+                                                 
+ Make new folder with       ----                 $  sudo mkdir ~/Downloads/new-folder
+ write protected
+
+Delete any folder           ----                 $  rm -R ~/Downloads/new-folder
                                                  
