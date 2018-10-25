@@ -6,3 +6,5 @@ Make new folder             ----                 $  mkdir ~/Downloads/new-folder
  write protected
 
 Delete any folder           ----                 $  rm -R ~/Downloads/new-folder
+
+Delete file named 'x.txt'   ----                 $  rm x.txt
