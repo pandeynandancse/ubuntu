@@ -1,1 +1,8 @@
+Make new folder             ----                 $  mkdir ~/Downloads/new-folder
+(Inside Downloads)
+                                                 
+                                                 
+ Make new folder with       ----                 $  sudo mkdir ~/Downloads/new-folder
+ write protected
 
+Delete any folder           ----                 $  rm -R ~/Downloads/new-folder
