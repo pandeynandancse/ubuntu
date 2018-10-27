@@ -1,9 +1,13 @@
-Shutdown                    ----                 $  shutdown now
+Shutdown                             ----                 $  shutdown now
 
-List directory contents     ----                 $  ls
+List directory contents              ----                 $  ls
 
 
 Get list of all entered 
-commands in terminal        ----                 $  history
+commands in terminal                 ----                 $  history
 
-clearing the terminal screen ----                $  clear
+clearing the terminal screen         ----                 $  clear
+
+show directory/file path that contains 
+all commands entered in terminal     ----                 $  echo $HISTFILE
+
