@@ -11,3 +11,6 @@ clearing the terminal screen         ----                 $  clear
 show directory/file path that contains 
 all commands entered in terminal     ----                 $  echo $HISTFILE
 
+one step rollback in directory       ----                 $  cd ..
+
+go to home directory from anywhere   ----                 $  cd
