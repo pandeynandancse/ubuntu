@@ -8,3 +8,6 @@ Make new folder             ----                 $  mkdir ~/Downloads/new-folder
 Delete any folder           ----                 $  rm -R ~/Downloads/new-folder
 
 Delete file named 'x.txt'   ----                 $  rm x.txt
+
+Create empty file 'x.txt'  
+under '/var/wwww/html'           ----            $  sudo touch /var/www/html/x.txt
