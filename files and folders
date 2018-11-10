@@ -1,4 +1,4 @@
-Make new folder             ----                 $  mkdir ~/Downloads/new-folder
+  Make new folder             ----                 $  mkdir ~/Downloads/new-folder
 (Inside Downloads)
                                                  
                                                  
@@ -11,3 +11,9 @@ Delete file named 'x.txt'   ----                 $  rm x.txt
 
 Create empty file 'x.txt'  
 under '/var/wwww/html'           ----            $  sudo touch /var/www/html/x.txt
+
+copy one file content in another file      ------  $ cp first_file another_file
+
+
+copy any file in any folder where folder's path is : /any_folder/          --------     $ cp any_file /any_folder/
+
