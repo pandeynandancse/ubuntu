@@ -1,8 +1,12 @@
 ------------------------------------------------------------------------------------
 1. How to compile and run 'c' file in ubuntu via terminal ?
 
-Solution : Compiling 'c' file named 'hello.c'          ->       gcc -o hello hello.c
-           Running 'c' file                            ->       ./hello
+Solution : Compiling 'c' file named 'hello.c'          ->       sudo gcc -o hello hello.c
+           Running 'c' file                            ->       sudo ./hello
            
 --------------------------------------------------------------------------------------
 
+2. How to compile and run 'C++' file in ubuntu via terminal ?
+
+Solution : Compiling 'C++'  file named 'hello.cpp'     ->       sudo g++ -o hello hello.cpp
+           Runniing 'C++' file                         ->       sudo ./hello
