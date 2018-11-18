@@ -19,5 +19,5 @@ Solution : Compiling "JAVA" file named 'hello.java'    ->      sudo javac hello.
            
 -----------------------------------------------------------------------------------------
 
-4. How to compile and run 'JAVA' file in ubuntu via terminal ?
-solution : Runnning python file 'hello.py'             ->      pytohn ./hello.py
+4. How to compile and run 'PYTHON' file in ubuntu via terminal ?
+solution : Runnning "PYTHON" file 'hello.py'             ->      pytohn ./hello.py
