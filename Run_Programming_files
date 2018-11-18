@@ -10,3 +10,14 @@ Solution : Compiling 'c' file named 'hello.c'          ->       sudo gcc -o hell
 
 Solution : Compiling 'C++'  file named 'hello.cpp'     ->       sudo g++ -o hello hello.cpp
            Runniing 'C++' file                         ->       sudo ./hello
+           
+---------------------------------------------------------------------------------------
+
+3. How to compile and run 'JAVA' file in ubuntu via terminal ?
+Solution : Compiling "JAVA" file named 'hello.java'    ->      sudo javac hello.java
+           Running "JAVA" file                         ->      java hello.java
+           
+-----------------------------------------------------------------------------------------
+
+4. How to compile and run 'JAVA' file in ubuntu via terminal ?
+solution : Runnning python file 'hello.py'             ->      pytohn ./hello.py
