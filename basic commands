@@ -1,3 +1,5 @@
+Print working directory              ----                 $  pwd
+
 Shutdown                             ----                 $  shutdown now
 
 List directory contents              ----                 $  ls
