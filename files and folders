@@ -17,3 +17,41 @@ copy one file content in another file      ------  $ cp first_file another_file
 
 copy any file in any folder where folder's path is : /any_folder/          --------     $ cp any_file /any_folder/
 
+
+
+
+
+
+
+
+$ cat glaciers.txt > rivers.txt                        ////// overwrites
+cat rivers.txt
+$ cat glaciers.txt >> rivers.txt                       //////  appends
+cat rivers.txt
+
+$ cat < lakes.txt
+
+cat volcanoes.txt | wc                               | is a "pipe". The | takes the standard output of the command on the left, and pipes it as standard input to the command on the right.| redirects standard output of a command to another command.
+
+                                                    wc- in turn, the wc command outputs the number of lines, words, and characters in volcanoes.txt, 
+
+$ sort lakes.txt
+$ cat lakes.txt | sort > sorted-lakes.txt
+uniq deserts.txt                                   /////////uniq stands for "unique" and filters out adjacent, duplicate lines in a file.
+sort deserts.txt | uniq
+sort deserts.txt | uniq > uniq-deserts.txt
+
+$ grep Mount mountains.txt                          ///////It searches files for lines that match a pattern and returns the results.
+$ grep -i Mount mountains.txt
+
+
+
+$ sed 's/snow/rain/' forests.txt                  /////////In this case, sed searches forests.txt for the word "snow" and replaces it 	                                                      with "rain." Importantly, the above command will only replace the first instance                                                of "snow" on a line.
+
+
+
+
+
+
+$ sed 's/snow/rain/g' forests.txt          ///////All instances of "snow" on a line will be turned to "rain"
+
