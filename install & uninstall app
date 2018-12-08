@@ -15,3 +15,10 @@ Install Leafpad text editor ----                 $  sudo apt-get install leafpad
 Install jupyter  notebook   ----                 $  sudo apt-get install jupyter-notebook
 open jupyter notebook       ----                 $  jupyter notebook
 close jupyter notebook      ----                 $  jupyter notebook stop
+
+
+
+Install sqlite3 command line interface            ----          $  sudo apt-get install sqlite3 libsqlite3-dev
+
+Install sqlite3 browser                           ----          $  sudo apt install sqlitebrowser
+open sqlite3 browser                              ----          $  sqlitebrowser
