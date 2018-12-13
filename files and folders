@@ -17,6 +17,21 @@ copy one file content in another file      ------  $ cp first_file another_file
 
 copy any file in any folder where folder's path is : /any_folder/          --------     $ cp any_file /any_folder/
 
+move file named 'abc.txt' from 'Downloads' to folder whose path is '/var/www/html/'   -------      $ mv ~/Downloads/abc.txt /var/www/html/ 
+
+rename any folder -> old name of folder - 'fold' , new name of folder - 'fold_new' ------ $ mv fold fold_new
+
+rename any file -> old name of file - 'file_old.ext' , new name of file - 'file_new.ext' ------ $ mv file_old.ext file_new.ext
+
+move multiple files or folder from one place to destination ------- $ mv {file1.ext1,file2.ext2,dir3,dir4} DESTINATION
+
+
+
+
+
+
+
+
 
 
 
