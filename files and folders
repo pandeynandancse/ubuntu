@@ -25,6 +25,7 @@ rename any file -> old name of file - 'file_old.ext' , new name of file - 'file_
 
 move multiple files or folder from one place to destination ------- $ mv {file1.ext1,file2.ext2,dir3,dir4} DESTINATION
 
+search the location of any file named 'abc.txt' in ubuntu   ------ $ locate abc.txt
 
 
 
