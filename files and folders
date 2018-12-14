@@ -40,9 +40,9 @@ search the location of any file named 'abc.txt' in ubuntu   ------ $ locate abc.
 
 
 
-$ cat glaciers.txt > rivers.txt                        ////// overwrites
+$ cat glaciers.txt > rivers.txt                        ////// overwrites rivers.txt
 cat rivers.txt
-$ cat glaciers.txt >> rivers.txt                       //////  appends
+$ cat glaciers.txt >> rivers.txt                       //////  appends to rivers.txt
 cat rivers.txt
 
 $ cat < lakes.txt
@@ -53,7 +53,7 @@ cat volcanoes.txt | wc                               | is a "pipe". The | takes 
 
 $ sort lakes.txt
 $ cat lakes.txt | sort > sorted-lakes.txt
-uniq deserts.txt                                   /////////uniq stands for "unique" and filters out adjacent, duplicate lines in a file.
+uniq deserts.txt                                   /////////uniq stands for "unique" and filters out adjacent duplicate lines in a file.
 sort deserts.txt | uniq
 sort deserts.txt | uniq > uniq-deserts.txt
 
