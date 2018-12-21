@@ -19,3 +19,6 @@ go to home directory from anywhere   ----                 $  cd
 
 current date and time                ----                 $ date
 present  calendar                    ----                 $ cal
+
+
+sleep 10s && mplayer ~/Downloads/'Mirzapur- Extended Theme Song _ OST _ Amazon Prime.mp3'
