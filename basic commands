@@ -18,6 +18,7 @@ one step rollback in directory       ----                 $  cd ..
 go to home directory from anywhere   ----                 $  cd
 
 current date and time                ----                 $ date
+
 present  calendar                    ----                 $ cal
 
 
