@@ -1,17 +1,17 @@
 There are many basic command line utilities that are used to list, examine, and manipulate files and directories. Each has many options. Here is a list of very commonly used ones, that should be in any user’s toolbox:
 
-Name	               Purpose
-ls	                 List files
-cat	          Type out (concatenate) the files
-rm	                 Remove files
-mv	             Rename (move) files
-mkdir	         Create directories
-rmdir	         Remove directories
-file	          Show file types
-ln	         Create symbolic and hard links
-tail	    Look at the tail end of the file
-head	    Look at the beginning of the file
-less	   Look at the file, one screenful at a time
-more	   Look at the file, one screenful at a time
-touch	  Either create an empty file, or update the file modification time
-wc	      Count lines, words, and bytes in a file
+Name	                            Purpose
+ls	                            List files
+cat	                   Type out (concatenate) the files
+rm	                            Remove files
+mv	                          Rename (move) files
+mkdir	                       Create directories
+rmdir	                       Remove directories
+file	                        Show file types
+ln	                    Create symbolic and hard links
+tail	               Look at the tail end of the file
+head	              Look at the beginning of the file
+less	              Look at the file, one screenful at a time
+more	            Look at the file, one screenful at a time
+touch	        Either create an empty file, or update the file modification time
+wc	                 Count lines, words, and bytes in a file
