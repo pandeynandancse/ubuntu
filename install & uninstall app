@@ -22,3 +22,10 @@ Install sqlite3 command line interface            ----          $  sudo apt-get 
 
 Install sqlite3 browser                           ----          $  sudo apt install sqlitebrowser
 open sqlite3 browser                              ----          $  sqlitebrowser
+
+
+Insatll Avidemux video editor                           ---------  $ sudo add-apt-repository ppa:ubuntuhandbook1/avidemux
+                                                                   $ sudo apt-get update
+                                                                $ sudo apt-get install avidemux2.7-qt5 avidemux2.7-plugins-qt5
+                                                               
+Uninsatll Avidemux                                --------------   $ sudo apt-get remove --autoremove avidemux2.7-qt5
