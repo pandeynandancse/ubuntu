@@ -27,6 +27,7 @@ move multiple files or folder from one place to destination ------- $ mv {file1.
 
 search the location of any file named 'abc.txt' in ubuntu   ------ $ locate abc.txt
 
+move all files of .pdf extension from Download folder to /var/www/html at once  ------ $ sudo mv ~/Download/*.pdf /var/www/html/ 
 
 
 
