@@ -22,5 +22,4 @@ Solution : Compiling "JAVA" file named 'hello.java'    ->      sudo javac hello.
 4. How to compile and run 'PYTHON' file in ubuntu via terminal ?
 solution : Runnning "PYTHON" file 'hello.py'             ->      python ./hello.py
 
-
 -------------------------------------------------------------------------------------------
