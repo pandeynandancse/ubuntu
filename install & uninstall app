@@ -29,3 +29,10 @@ Insatll Avidemux video editor                           ---------  $ sudo add-ap
                                                                 $ sudo apt-get install avidemux2.7-qt5 avidemux2.7-plugins-qt5
                                                                
 Uninsatll Avidemux                                --------------   $ sudo apt-get remove --autoremove avidemux2.7-qt5
+
+
+Install Octave                            ---------         sudo apt-get install flatpak
+                                                            flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+                                                            flatpak install flathub org.octave.Octave
+                                                            
+ Launch Ocatve                            -------            flatpak run org.octave.Octave
