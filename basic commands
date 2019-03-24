@@ -23,3 +23,4 @@ present  calendar                    ----                 $ cal
 
 
 set alarm for 10s                ------  sleep 10s && mplayer ~/Downloads/'Mirzapur- Extended Theme Song _ OST _ Amazon Prime.mp3'
+
