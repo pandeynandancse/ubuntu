@@ -36,3 +36,6 @@ Install Octave                            ---------         sudo apt-get install
                                                             flatpak install flathub org.octave.Octave
                                                             
  Launch Ocatve                            -------            flatpak run org.octave.Octave
+
+
+Install tesseract on anaconda navigator in ubuntu  ----------  conda install -c jiayi_anaconda pytesseract  
