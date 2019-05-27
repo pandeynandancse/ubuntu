@@ -39,3 +39,10 @@ Install Octave                            ---------         sudo apt-get install
 
 
 Install tesseract on anaconda navigator in ubuntu  ----------  conda install -c jiayi_anaconda pytesseract  
+
+
+ Install tesseract on anaconda in ubuntu          --------           sudo apt install tesseract-ocr
+                                                                sudo apt install libtesseract-dev
+                                                                
+                                                                
+                                                                
