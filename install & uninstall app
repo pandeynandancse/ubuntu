@@ -44,5 +44,13 @@ Install tesseract on anaconda navigator in ubuntu  ----------  conda install -c 
  Install tesseract on anaconda in ubuntu          --------           sudo apt install tesseract-ocr
                                                                 sudo apt install libtesseract-dev
                                                                 
-                                                                
-                                                                
+                                                        
+ Install tesseract with pip3 if python 2&3 both are installed               -------               pip3 install pytesseract                                                       
+                                                             
+                                                             
+Install ipywebrtc on conda environment  with any one of the following command  ---------     1) conda install -c conda-forge ipywebrtc 
+                                                                                             2) conda install -c conda-forge/label/gcc7 ipywebrtc 
+                                                                                             3) conda install -c conda-forge/label/cf201901 ipywebrtc                                                              
+
+
+Install pygame on conda environment                                  ---------------  conda install -c cogsci pygame
