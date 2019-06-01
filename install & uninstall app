@@ -54,3 +54,6 @@ Install ipywebrtc on conda environment  with any one of the following command  -
 
 
 Install pygame on conda environment                                  ---------------  conda install -c cogsci pygame
+
+
+Install 
