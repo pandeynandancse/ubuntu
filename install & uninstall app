@@ -56,4 +56,12 @@ Install ipywebrtc on conda environment  with any one of the following command  -
 Install pygame on conda environment                                  ---------------  conda install -c cogsci pygame
 
 
-Install 
+Activate anaconda                                   -------     conda activate
+
+
+opening anaconda interface                   ------------     anaconda-navigator
+
+
+De activate anaconda                                    -----  conda deactivate
+
+If your anaconda activates automatic the set it to false as shown    -----  conda config --set auto_activate_base False
