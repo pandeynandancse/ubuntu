@@ -28,4 +28,5 @@ set alarm for 10s                ------  sleep 10s && mplayer ~/Downloads/'Mirza
 hide any folder                    ----------  mv foldername .foldername
 unhide hidden folder              ------------  mv .foldername foldername
 
-
+Dividing the screen in two parts  for one window to be palced at left  ---------- windows + left arrow
+                                     another window to be palced at right   ---------- windows + right arrow
