@@ -26,3 +26,8 @@ Solution : Compiling "JAVA" file named 'hello.java'    ->      sudo javac hello.
 solution : Runnning "PYTHON" file 'hello.py'             ->      python ./hello.py
 
 -------------------------------------------------------------------------------------------
+
+
+
+5. How to run shell file  via terminal ?
+Solution : Running "abc.sh" via trminal          ->   bash abc.sh
