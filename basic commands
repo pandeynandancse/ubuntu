@@ -30,3 +30,9 @@ unhide hidden folder              ------------  mv .foldername foldername
 
 Dividing the screen in two parts  for one window to be palced at left  ---------- windows + left arrow
                                      another window to be palced at right   ---------- windows + right arrow
+
+
+
+
+
+Run shell file in terminal  ------------------------    bash ~/Downloads/Anaconda3-2019.03-Linux-x86_64.sh
