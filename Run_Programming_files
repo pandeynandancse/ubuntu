@@ -31,3 +31,7 @@ solution : Runnning "PYTHON" file 'hello.py'             ->      python ./hello.
 
 5. How to run shell file  via terminal ?
 Solution : Running "abc.sh" via trminal          ->   bash abc.sh
+
+
+------------------------------------------------------------------------------------------
+
