@@ -7,6 +7,10 @@
 
 Delete any folder           ----                 $  rm -R ~/Downloads/new-folder
 
+
+Delete any folder with its all sub - directories      -------             $ rm -rf folder
+
+
 Delete file named 'x.txt'   ----                 $  rm x.txt
 
 Create empty file 'x.txt'  
