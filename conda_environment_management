@@ -1,0 +1,54 @@
+Step by step guide to change python environment from 2 to 3 or 3 to 2 so that your default version is 3 or 2.
+
+1) open terminal
+
+2) conda list anaconda$                ////// gives anaconda version
+
+
+3) conda --verison
+
+4) conda list                        ///////    checking if we have nb_conda_kernels
+
+
+5) conda install nb_conda_kernels           ///// if not found nb_conda_kernels then install
+
+
+6) python -V                             //////////    python version to switch from one version to another
+
+
+7) conda create -n glee-env python = 2.7 ipykernel           /////// created environment 'glee-env' and its python version will be 2.7 
+ 
+ 
+8) conda create -n glee-env2 python = 3.6 ipykernel           ////////if you are using python 2.7 and want a seperate python 3.6 environment 
+ 
+ 
+ 
+ 
+9) conda activate glee-env                       /////activate envitronment
+
+
+10) jupyter notebook                          //////// switched version of python will be opened
+
+These are the steps.
+
+
+
+-------------------------------------------------------------------End--------------------------------------------------------
+
+
+
+
+10)  conda update pip                 ////// update conda if required or prompted
+
+ pip install --upgrade --no-cache-dir https://get.graphlab.com/GraphLab-Create/2.1/pandeynandancse@gmail.com/132B-A0A5-2484-4488-B7BA-51BC-3CC6-174C/GraphLab-Create-License.tar.gz
+ 1996  conda install ipython-notebook
+
+  jupyter notebook
+ pip install --upgrade jsonschema
+
+ pip install graphlab-create
+
+
+jupyter notebook
+
+conda update anaconda
