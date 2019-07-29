@@ -5,6 +5,7 @@ Solution : Compiling 'c' file named 'hello.c'          ->       sudo gcc -o hell
            Running 'c' file                            ->       sudo ./hello
            
            
+           
 --------------------------------------------------------------------------------------
 
 2. How to compile and run 'C++' file in ubuntu via terminal ?
