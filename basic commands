@@ -36,3 +36,50 @@ Dividing the screen in two parts  for one window to be palced at left  ---------
 
 
 Run shell file in terminal  ------------------------    bash ~/Downloads/Anaconda3-2019.03-Linux-x86_64.sh
+
+
+
+copy file from folder_1 to folder_2        ----------   cp folder_1/file folder_2
+
+
+find any file                 -----------           find / -name file_name
+
+
+
+open file in terminal           -----------       cat file_name
+                                -----------      more file_name
+
+write text from terminal  in file            ----------    cat > file
+
+
+
+find who logged in system               -------          who
+
+know  yourelf                     -----------------    whoami
+                                 -------------         uname
+
+zipping the file                    --------------     gzip file
+
+unzip the file                   --------------------   gunzip file
+
+
+compare two file                   ---------------      cmp file_1 file_2
+                                  ---------------       diff  file_1 file_2
+                                  
+                                  
+                                  
+ password containing file          --------  /etc/passwd
+ 
+                                    -------   /etc/shadow    
+         
+         
+         
+         
+ ln
+ echo $HOME
+ echo $PATH
+ passwd
+
+
+
+
