@@ -79,7 +79,7 @@ compare two file                   ---------------      cmp file_1 file_2
  echo $HOME
  echo $PATH
  passwd
-
+ kill
 
 
 
