@@ -3,7 +3,7 @@ Print working directory              ----                 $  pwd
 Shutdown                             ----                 $  shutdown now
 
 List directory contents              ----                 $  ls
-
+ list directory contents with permission ----            $ ls -l
 
 Get list of all entered 
 commands in terminal                 ----                 $  history
@@ -82,4 +82,8 @@ compare two file                   ---------------      cmp file_1 file_2
  kill
 
 
-
+rwx
+user group others
+d for directory
+- for file
+-R recursively to all
