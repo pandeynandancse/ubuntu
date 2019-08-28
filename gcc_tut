@@ -1,1 +1,31 @@
+1 . Use gpp or g++ for c++ in place of gcc for c.
 
+2.gcc --version            ---- givess gcc verion
+3.gcc -v                  --- gives detailed gcc version
+4.gcc --help
+5.man gcc                 ---- read mnanual of gcc,   
+6.space for next page  and q for quitting 
+
+(for cmd or bash shell)man gcc| col -b > gcc.txt    ----- open manual of gcc and pipeline to col -b and write in gcc.txt
+col utility is needed to strip the backspaces
+
+manual of gcc is under "usr/share/man/man1".
+
+8. $ whereis gcc            ---- gives path of gcc 
+9. gcc hello.c          ---- compile hello.c
+default executable is 'a.out' in linux and 'a.exe' in windows
+
+10. chmod 777 a.out      ----- change permission for a.out and sets rwx for every user , group and others.
+11. gcc hello.c -o hell   -------  compile hello.c file and output 'hel' file as object or executable file instead of default file 'a.out'
+
+12.gcc -Wall -g -o hell hello.c    ----- compile , all warning messages , debug option enable for 'gdb' use,output as hell 
+
+13. compile and link seperately -> gcc -c hello.c    --- compiled and outputs as hello.o
+                                   gcc -o held hello.o   ---- linked object file with output executable file
+                                   
+14. compile and linking multiple source files ----- gcc -o file1withfile2 file1.c file2.c
+
+15. compile and linking seperately multiple source files ----- gcc -c file1.c
+                                                               gcc -c file2.c
+                                                               gcc -o file1withfile2 file1.o file2.o
+                        
