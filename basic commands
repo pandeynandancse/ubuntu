@@ -63,6 +63,9 @@ zipping the file                    --------------     gzip file
 unzip the file                   --------------------   gunzip file
 
 
+convert folder into .tgz folder     ----------  tar -cvzf folder_name.tgz folder_name
+
+
 compare two file                   ---------------      cmp file_1 file_2
                                   ---------------       diff  file_1 file_2
                                   
