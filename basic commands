@@ -85,6 +85,8 @@ compare two file                   ---------------      cmp file_1 file_2
  kill
 
 
+
+sudo -i
 rwx
 user group others
 d for directory
