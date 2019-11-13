@@ -78,6 +78,15 @@ compare two file                   ---------------      cmp file_1 file_2
          
          
          
+         
+         
+         
+ list all running process  ----  ps
+ flags of ps ---   -e , -cal, -a etc..
+ 
+ 
+ 
+         
  ln
  echo $HOME
  echo $PATH
