@@ -98,6 +98,7 @@ compare two file                   ---------------      cmp file_1 file_2
  
  
  background jobs  = bg jobid1 jobid2
+ ==> %+ or %% , %- , 
  
  
  
