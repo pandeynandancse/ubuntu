@@ -85,6 +85,13 @@ compare two file                   ---------------      cmp file_1 file_2
  flags of ps ---   -e , -cal, -a etc..
  
  
+ tty    ----  prints info about terminal
+ less  -- faster than more and cat --  views screen(page) by screen(page)
+ 
+ uname
+ whoami
+ 
+ 
  
          
  ln
