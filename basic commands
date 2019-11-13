@@ -102,7 +102,7 @@ compare two file                   ---------------      cmp file_1 file_2
  
  
  
- 
+ time command   ---- time ls  ==>> gives taken time to execute ls command
  
  
  
