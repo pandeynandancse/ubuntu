@@ -3,6 +3,10 @@ https://docs.anaconda.com/anaconda/install/linux/
 download anaconda from official link
 bash ~/Downloads/Anaconda3-2019.10-Linux-x86_64.sh
 enter (continue) =>> yes(license agreement)  ==>> enter(continue) ==>>>yes(init) ==> close nd then open terminal.
+conda install pandas
+conda install sklearn
+pip3 install --upgrade tensorflow
+
 pip3 install --upgrade pip
 pip3 install jupyter
 jupyter notebook     or    jupyter notebook --allow-root
