@@ -8,7 +8,8 @@ conda install sklearn
 pip3 install --upgrade tensorflow
 
 pip3 install --upgrade pip
-pip3 install jupyter
+pip3 install jupyter  or   pip install tensorflow
+
 jupyter notebook     or    jupyter notebook --allow-root
 
 
