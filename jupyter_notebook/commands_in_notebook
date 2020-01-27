@@ -1,3 +1,11 @@
+download anaconda from official link
+pip3 install --upgrade pip
+pip3 install jupyter
+jupyter notebook     or    jupyter notebook --allow-root
+
+
+
 1. Clone github repository directly in notebook -->  %bash
                                                     git clone https://github.com/GoogleCloudPlatform/training-data-analyst
                                                     rm -rf training-data-analyst/.git
+                                                    
