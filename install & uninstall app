@@ -64,3 +64,13 @@ opening anaconda interface                   ------------     anaconda-navigator
 De activate anaconda                                    -----  conda deactivate
 
 If your anaconda activates automatic the set it to false as shown    -----  conda config --set auto_activate_base False
+
+
+
+
+
+
+google chrome install in kali ------------     wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+                                               apt install gdebi-core
+                                               gdebi google-chrome-stable_current_amd64.deb
+                                               google-chrome --no-sandbox
