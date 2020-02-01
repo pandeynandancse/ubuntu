@@ -6,7 +6,6 @@ Install SublimeText         ----                 $  sudo apt-get update
 Uninstall SublimeText       ----                 $  sudo apt-get remove sublime-text 
                                                  $  sudo apt-get autoremove
                                  
-                                 
                                                  
 Install Leafpad text editor ----                 $  sudo apt-get install leafpad
 
@@ -28,6 +27,7 @@ Insatll Avidemux video editor                           ---------  $ sudo add-ap
                                                                 $ sudo apt-get install avidemux2.7-qt5 avidemux2.7-plugins-qt5
                                                                
 Uninsatll Avidemux                                --------------   $ sudo apt-get remove --autoremove avidemux2.7-qt5
+
 
 
 Install Octave                            ---------         sudo apt-get install flatpak
