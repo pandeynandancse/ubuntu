@@ -62,7 +62,7 @@ etc/hadoop/hdfs-site.xml:
 </configuration>
 
              
-             
+service ssh restart             
 ssh localhost
 
 
