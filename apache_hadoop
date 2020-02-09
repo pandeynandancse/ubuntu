@@ -115,3 +115,59 @@ View the output files on the distributed filesystem:
 When you’re done, stop the daemons with:
       $ sbin/stop-dfs.sh
 
+
+
+
+
+
+
+
+
+
+
+
+2.   YARN on a Single Node
+
+
+
+etc/hadoop/mapred-site.xml:
+<configuration>
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+</configuration>
+
+
+
+
+
+etc/hadoop/yarn-site.xml:
+<configuration>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+</configuration>
+
+
+
+
+Start ResourceManager daemon and NodeManager daemon
+$ sbin/start-yarn.sh
+
+
+Browse the web interface for the ResourceManager; by default it is available at:
+ResourceManager - http://localhost:8088/
+
+
+Run a MapReduce job.
+
+
+When you’re done, stop the daemons with:
+$ sbin/stop-yarn.sh
+
+
+
+
+
