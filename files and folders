@@ -7,7 +7,6 @@
 
 Delete any folder           ----                 $  rm -R ~/Downloads/new-folder
 
-
 Delete any folder with its all sub - directories      -------             $ rm -rf folder
 
 
