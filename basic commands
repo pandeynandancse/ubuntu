@@ -1,6 +1,6 @@
 Print working directory              ----                 $  pwd
 
-
+ip-address                         -----      ip addr show
 Shutdown                             ----                 $  shutdown now
 
 List directory contents              ----                 $  ls
