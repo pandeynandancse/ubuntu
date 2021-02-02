@@ -1,0 +1,59 @@
+  MySQL_Connection.query('SELECT * from coursera_schema.courses WHERE ?', [{course_id: data.user_id}], function (err,rows,result) {
+                if(err) {
+                    console.log('err', err);
+                } else{
+                    console.log(rows);
+                    console.log('name', rows[0]['instructor']);
+                    var payloaddata = {
+                        "type": 'like',
+                        "name": rows[0]['instructor'],
+                        "c_name": rows[0]['CourseName'],
+                        "price": rows[0]['price'],
+                        "category_name": rows[0]['category_name'],
+                        "cource_id": rows[0]['course_id'].toString(),
+                        "doc_img": rows[0][' landing_image_url'] ? rows[0][' landing_image_url'] : "https://storage.googleapis.com/web-assets/dpm_logo.png"
+                    };
+                    payload.data = payloaddata;
+                    payload.notification.title = rows[0]['instructor'] + " " + "Added to cart" ;
+                    //     payload.notification.click_action = "http://localhost:4200/article/" + received['slug'] +received['doctor_articles_id'];
+                    var ref = db.ref('medhub/' + rows[0]['course_id']);
+                    // client.get("http://203.92.40.186:8443/Sun3/Send_SMS2x?user=rightdoctors&password=rightdoctors@123&sender=RTDOCS&text= Dear " + Patient[0]['name'] + ", your appointment is on Date at Time has been //confirmed by your Doctor. Please login(https://therightdoctors.com/dpm) to make payment within an hour and confirm consultation. " + "&PhoneNumber=" + Patient[0]['mobile_number'], function (data, //response) {
+                    //         });
+                    // console.log('ref',ref);
+                    console.log('payload', payload);
+                    ref.once("value", function (snapshot) {
+                        var tokens = snapshot.child("fcmtokens").val();
+                        console.log('fcm tokens form firebase DB');
+                        var tokencount = Object.keys(tokens).length;
+                        var tempcount = 0;
+                        for (var token in tokens) {
+                            admin.messaging().sendToDevice(token, payload).then(function (response) {
+                                // See the MessagingTopicResponse reference documentation for the
+                                console.log("Successfully sent message:", response);
+                                ++tempcount;
+
+                                if (tokencount == tempcount) {
+                                    console.log('successs');
+                                    res.send({
+                                        success: true,
+                                        message: 'Like Article',
+                                        course_id: rows[0]['course_id']
+                                    })
+                                }
+                            }).catch(function (error) {
+                                console.log("Error sending message:", error);
+                            });
+                        }
+                    }, function (errorObject) {
+                        console.log("The read failed: " + errorObject.code);
+                    });
+                }
+
+            });
+            pusher.trigger(data.user_id + '_test_channel', 'my_event_user', {
+                "user_id": data.user_id,
+                "course_name": data.course_name,
+                "course_id": data.course_id,
+                "course_image": data.course_image,
+
+            });
